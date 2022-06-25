@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Glitch&display=swap');
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Glitch', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+#logo-alura {
+    padding-top: 30px;
+    position: absolute;
+    left: 50px;
+}
+
+#titulo {
+    padding-top: 30px;
+    font-size: 60px;
+    font-family: 'Rubik', cursive;
+    text-align: center;
+    color: #0A3871;
+}
+
+.main-tela {
+    width: 100vw;
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-tela {
+    width: 50vw;
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+
+}
+
+.menu {
+    background-color: #DCDCDC ;
+    border: solid #0A3871;
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #0A3871;
+
+
+}
+
+.menu >p {
+    font-family: 'Rubik', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    color: #0A3871;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    padding: 15px;
+}
+
+.btn2 {
+    padding: 15px;
+}
+
+.btn-jogar {
+
+    font-family: 'Rubic', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    width: 295px;
+    height: 67px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px #000;
+    transition: transform 200ms, box-shadow 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A3871;
+    color: #FFF;
+        
+}
+
+
+.btn-jogar:hover,
+.btn-jogar:focus {
+background: #0000CD;
+transform: translateX(10px) scale(1.1);
+}
+
+
+
+.btn-addpalavra {
+
+    background-color: #FFF;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+    font-family: 'Rubic', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    width: 295px;
+    height: 67px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px #000;
+    transition: transform 200ms, box-shadow 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-addpalavra:hover,
+.btn-addpalavra:focus {
+    color: #FFF;
+    background: #483D8B;
+    transform: translateX(10px) scale(1.1);
+}
